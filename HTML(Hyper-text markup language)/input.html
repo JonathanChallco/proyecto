@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+
+    <form action="" method="get"><!--Formularios que sirven para un Register-->
+        <!--Input Type Text-->
+        <h4>Datos Personales</h4><br>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre">
+        <label for="apellido">Apellido</label>
+        <input type="tex" name="Apellido" id="apellido">
+        <br>
+        <!--INPUT RADIO BUTTON-->
+        <h4>Situacion Laboral</h4><br>
+        <label for="empleado">Empleado</label>
+        <input type="radio" name="situacion-laboral" id="empleado" value="1">
+        <label for="desempleado">Desempleado</label>
+        <input type="radio" name="situacion-laboral" id="desempleado" value="2">
+        <label for="busqueda">En búsqueda activa</label>
+        <input type="radio" name="situacion-laboral" id="busqueda" value="3">
+        <br>
+        <!--INPUT TYPE CHECKBOX-->
+        <h4>Tecnología que manejas</h4>
+        <label for="html">HTML</label>
+        <input type="checkbox" name="tecnologias" id="html" value="html">
+        <label for="css">CSS</label>
+        <input type="checkbox" name="tecnologias" id="css" value="css">
+        <label for="javascript">JACASCRIPT</label>
+        <input type="checkbox" name="tecnologias" id="javascript" value="javascript">
+        <label for="react">REACT</label>
+        <input type="checkbox" name="tecnologia" id="html" value="react">
+        <br>
+        <!-- TEXTAREA -->
+        <label for="motivo">Motivo</label>
+        <br>
+        <textarea name="motivo" id="motivo" cols="50" rows="5"></textarea>
+        <br>
+        <!-- INPUT TYPE SUMIT -->
+        <input type="submit" value="Enviar">
+    </form>
+    --------------------------------------------------------------------------------
+    <form action="" method="get"><!--Formularios que sirven para un Login-->
+        <!-- INPUT TYPE TEXT -->
+        <h4>Login</h4><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="password">Contraseña</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <input type="submit" value="Entrar">
+        <input type="reset" value="Limpiar">
+    </form>
+    --------------------------------------------------------------------------------
+    <form method="get"> <!--Diferentes Input´s-->
+        <!--Color-->
+        <label for="color">Seleccioná un color</label>
+        <input type="color" name="color" id="color">
+        <br>
+        <input type="submit" value="Enviar">
+        <br>
+        <!--Fecha-->
+        <label for="date">Seleccioná una fecha</label>
+        <input type="date" name="date" id="date">
+        <br>
+        <input type="submit" value="Enviar">
+        <br>
+        <!--Hora-->
+        <label for="time">Seleccioná la hora</label>
+        <input type="time" name="time" id="time">
+        <br>
+        <input type="submit" value="Enviar">
+        <br>
+        <!--numeros-->
+        <label for="number">Seleccioná un numero</label>
+        <input type="number" name="number" id="number" min="1" max="100">
+        <br>
+        <input type="submit" value="Enviar">
+        <br>
+        <!--Rangos-->
+        <label for="range">Seleccioná un rango</label>
+        <input type="range" name="range" id="range" min="1" max="5">
+        <br>
+        <input type="submit" value="Enviar">
+        <br>
+        <!--Archivo-->
+        <label for="file">Seleccioná un Archivo</label>
+        <input type="file" name="file" id="file">
+        <br>
+        <input type="submit" value="Enviar">
+        <br>
+    </form>
+</body>
+</html>

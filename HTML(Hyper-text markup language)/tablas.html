@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tablas HTML</h1>
+
+    <table> <!--Etiqueta de tabla-->
+        <colgroup>
+            <col span="1" style="background-color: rgb(173, 173, 235);">
+        </colgroup>
+        <tr> <!--Etiqueta de Fila (row)-->
+            <th>Alumnos</th> <!--Etiqueta de Table header (encabezado de tabla)-->
+            <th colspan="2" >Nombre y Apellido</th> <!--Colspan nos ayudara a extender horizontalmente-->
+            <th>Notas</th>
+        </tr>
+        <tr>
+            <td>1</td> <!--Etiqueta de Table data (Informacion de Tabla)-->
+            <td>Pedro</td>
+            <td>Perez</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Rodrigo</td>
+            <td>Gonzalez</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Humberto</td>
+            <td rowspan="2">Velez</td> <!--Rowspan podemos hacer una extension vertical-->
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Cecilia</td>
+            <td>10</td>
+        </tr>
+    </table>
+</body>
+</html>
