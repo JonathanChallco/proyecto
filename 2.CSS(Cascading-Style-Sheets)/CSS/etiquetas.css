@@ -1,0 +1,32 @@
+/* Selectores*/
+
+/* ID:Solo para 1 elemento */
+#titulo-principal {
+    color: red;
+}
+
+/* Class: Diferentes elementos */
+.rojo {
+    color: red;
+}
+
+/* a todas las etiquetas "p"*/
+p.rojo {
+    text-align: center;
+}
+
+/* Dentro de un selector */
+.fondo-verde{
+    background-color: green;
+}
+
+/* a todas las etiquetas "p,h3" */
+p,h3{
+    color: blueviolet;
+}
+
+/* Selector universar (Todo los elementos) */
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Puede pisar otra etiqueta */

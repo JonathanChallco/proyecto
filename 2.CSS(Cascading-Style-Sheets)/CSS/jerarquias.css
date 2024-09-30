@@ -1,0 +1,6 @@
+/* Se lee de arriba hacia abajo siempre */
+/* Es importante que no haya nada por encima del enlace */
+/* Siempre ultilizar CSS con etiquetas */
+h1{
+    color:brown
+}

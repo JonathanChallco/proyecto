@@ -1,0 +1,35 @@
+/* Formato de Textos */
+/*Fuentes*/
+h2{
+    font: 20px;
+}
+h4{
+    font-size:2vw;
+}
+
+.serif{
+    font-family: 'Times New Roman', Times, serif; /*Se puede poner más, si no encuentra uno pasa al siguiente*/
+}
+.sans-serif{
+    font-family: sans-serif;
+}
+.monospace{
+    font-family: monospace;
+}
+.cursive{
+    font-family: monospace;
+}
+.fantasy{
+    font-family: fantasy;
+}
+/* .style{ 
+    font-style: italic;
+} */
+/* .weight{
+    font-weight: 900;
+} */
+.variant{
+    font-variant:small-caps ;/*Todo mayuscula pero la 1ra es grande*/
+}
+
+/*FUENTES DE TERCEROS*/

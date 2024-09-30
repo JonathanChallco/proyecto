@@ -1,0 +1,89 @@
+/* Estilos de Textos */
+
+/* Fondo  */
+div{
+    width: 150px; /*Ancho*/
+    height: 70px; /*Altura*/
+    border:2px solid black ; /*Borde alrededor del elemento*/
+    padding: 20px; /*Espacio entre el contenido y el borde del elemento*/
+    margin: 20px; /*Espacio exterior entre el elementos*/
+}
+.spacing{ /*Spacing*/
+    width: 500px;
+    height: auto;/*Con respecto a lo que tendremos adentro de la caja*/
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+h1{
+    /* Estilo de colores:  */
+
+    color: black;
+    /* color: rgb(91, 41, 171); */
+    /* color: #7fe0f8; */
+    /* color: hsl(50, 100%, 50%); */
+
+    /* Estilos de Texto */
+    /* Comportamiento por defecto con su recuadro o elemento padre */
+    text-align: center;
+}
+
+/* Decoracion */
+
+.overline { /*Añade una linea encima del texto*/
+    /* text-decoration: overline;  */
+    /* text-decoration-color: red; */
+    /* text-decoration-thickness: 2p; */
+    /* Se puede poner todo junto */
+    text-decoration: overline red 1px;
+    /*text-decoration:none;*//*Sirve para pisar la decoracion que se ponga en div*/
+}
+
+.line-through { /*Añade una linea que atraviesa el texto*/
+    text-decoration: line-through;
+    text-decoration-color: blue;
+    text-decoration-thickness: 2px;
+}
+
+.underline { /*Añade una linea debajo del texto*/
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    /*decoration-style: los estilos que pueden tomar :
+    solid, double, dotted, dashed, wavy*/
+}
+
+.mix { /*Se puede usar mixto*/
+    text-decoration: underline overline;
+}
+
+/* text Transformation */
+.uppercase{
+    /*Mayuscula todo*/
+    text-transform: uppercase;
+}
+.lowercas{
+    /*Todo minuscula*/
+    text-transform: lowercase;
+}
+.capitalize{
+    /*La primera letra de todo mayuscula*/
+    text-transform: capitalize;
+}
+.none{
+    text-transform: none;
+}
+
+/*text-spacing*/
+.spacing{
+    text-indent: 50px; /*Da sangria*/
+    letter-spacing: 1px; /*Espacio entre letras, se puede agregar numero negativos*/
+    line-height: 1.5; /*es en formato factor 1 es 100%*/
+    word-spacing: 5px; /*Espacio por palabra*/
+    /*Se sale de la caja*/
+    /*white-space: nowrap;*//*No esta embuelto*/
+    /*text-shadow*/
+    text-shadow: 2px 2px 2px rgb(172, 171, 171), 2px 3px 3px rgb(166, 241, 241);
+    /*sombreado y doble sombreado*/
+    /* En los px se pueden poner Negativos */
+}
