@@ -1,0 +1,44 @@
+/* Listas */
+ul.desordenada{
+    list-style-type: circle;
+    /* list-style-image: url(/imgs/icons8-perfil-de-gato-16.png); */
+    /*Hay muchos estilos*/
+}
+ol.ordenada{
+    /* list-style-type: armenian; */
+    /* list-style-type: decimal; */
+    /* list-style-type: georgian; */
+    list-style-type:upper-roman ;/*Hay muchos estilos*/
+}
+/*Icono posicion*/
+ul.medio{
+    list-style-image: url(/imgs/icons8-perfil-de-gato-16.png);
+    /* list-style-position: outside; */
+    list-style-position: inside;
+    
+}
+/* ------------------------------- */
+/* Es una donde esta el icono */
+ul {
+    background: #852a2a;
+    margin: 5px;
+    padding: 10px 0px;
+}
+/* Es la lista */
+ul li{
+    background: #daaeae;
+    padding: 10px;
+    margin: 5px;
+}
+/* ------------------------------- */
+ol {
+    background: #852a2a;
+    margin: 5px;
+    padding: 10px 0px;
+}
+ol li{
+    background: #daaeae;
+    padding: 10px;
+    margin: 5px;
+}
+/* ------------------------------- */
