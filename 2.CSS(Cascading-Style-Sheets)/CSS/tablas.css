@@ -1,0 +1,32 @@
+/* Tablas */
+
+table,th,td{/*Doble border*/
+    border: 1px solid black;
+}
+th,td{
+    text-align: center;
+    padding: 15px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 10px;
+}
+
+tr:nth-child(even){
+    background-color: rgb(229, 229, 229);
+}
+tr:hover{
+    background-color: rgb(223, 173, 229);   
+}
+th{
+    background-color:rgb(168, 100, 199);
+}
+th{
+    height: 50px;
+}
+
+td{
+    vertical-align: bottom;/*Letras abajo*/
+}
